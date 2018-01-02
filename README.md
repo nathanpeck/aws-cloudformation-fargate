@@ -36,5 +36,5 @@ This template requires the public + private subnet networking stack. It launches
 __[Private Subnet, Private Load Balancer](service-stacks/private-subnet-private-loadbalancer.yml)__
 
 This template requires the public + private subnet networking stack. It launches containers that are hosted in a private subnet, and have no public IP address. The containers are behind an internal load balancer which is hosted in the private subnet, with no public IP address either. This allows other containers in the subnet to make requests against the load balancer, but the load balancer is not accessible to the public internet. These private services can still initiate outbound access the internet via the NAT gateway hosted in the public subnets.
-ma
+
 Each one has default values prefilled for launching a simple Nginx container, but can be customized. It's important to make sure the "StackName" value is filled in with the same name that you selected for the name of your networking stack chosen in step #1.
