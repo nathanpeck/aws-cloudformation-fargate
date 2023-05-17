@@ -49,3 +49,9 @@ This template requires the public + private subnet networking stack. It launches
 
 
 Each of the above CF stacks has default values prefilled for launching a simple Nginx container, but can be customized. It's important to make sure the "StackName" value is filled in with the same name that you selected for the name of your networking stack chosen in step #1.
+
+---- and here we test.
+export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+export AWS_DEFAULT_REGION=us-west-2
+
