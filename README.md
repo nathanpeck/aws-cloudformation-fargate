@@ -1,6 +1,8 @@
 
 # CloudFormation Templates for AWS Fargate deployments
 
+__Note: I have created a much more up to date collection of patterns at [Containers on AWS patterns for CloudFormation and Fargate](https://containersonaws.com/pattern/?tool=cloudformation). This collection covers a broader set of use cases, and you can use filters to more easily explore different dimensions, including various ECS features, and capacity types like EC2 as well__
+
 This is a collection of CloudFormation templates for launching containers in Fargate with a variety of different networking approaches. Fargate is designed to give you significant control over how the networking of your containers works, and these templates show how to host public facing containers, containers which are indirectly accessible to the public via a load balancer but hosted within a private network, and private containers that can not be accessed by the public.
 
 ## Instructions
